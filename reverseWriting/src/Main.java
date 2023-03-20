@@ -5,15 +5,15 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        String isim;
+        String name;
         System.out.println("Please write a word: ");
-        isim = input.nextLine();
+        name = input.nextLine();
 
         String reverse = "";
-        int j = isim.length();
+        int j = name.length();
         while (j > 0) {
             j--;
-            reverse += isim.charAt(j);
+            reverse += name.charAt(j);
 
         }
         System.out.println("Reverse: " + reverse);

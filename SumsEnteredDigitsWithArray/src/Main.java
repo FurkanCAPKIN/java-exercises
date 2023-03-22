@@ -19,7 +19,5 @@ public class Main {
 
         System.out.println("Sum of the entered numbers: "+sum);
 
-
-
     }
 }

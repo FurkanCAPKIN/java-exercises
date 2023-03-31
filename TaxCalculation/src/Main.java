@@ -4,7 +4,7 @@ public class Main {
 
     public int taxCalculate (int price) {
         int newPrice = price + ((price * 18)/100);
-        // %18 kdv hesaplandı.
+        // tax calculated.
         return newPrice;
     }
     public static void main(String[] args) {

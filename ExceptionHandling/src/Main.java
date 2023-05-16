@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +21,7 @@ public class Main {
             /*Eğer kod üst satırda hata verirse try bloğundan çıkar ve catch bloğuna geçer ve
              bu sebepten alttaki satır çalışmaz ama kod hata vermezse alttaki satır çalışır ve
              catch bloğuna girilmez. */
-            System.out.println("Bölüm : "+new DecimalFormat("##.##").format(bolum));
+            System.out.println("Bölüm : "+bolum);
 
 
         }catch (ArithmeticException ax){

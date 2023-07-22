@@ -12,9 +12,7 @@ public class Main {
         int result=1;
 
         while (true){
-            if (number == 0){
-                break;
-            }else if (number == 1){
+            if (number == 0 || number == 1){
                 break;
             }else{
                 result *= number;
